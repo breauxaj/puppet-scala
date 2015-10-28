@@ -11,8 +11,8 @@ include scala
 ```
 ```
 class { 'scala':
-  $version => '2.11.7',
-  $source  => 'http://downloads.typesafe.com/scala',
+  version => '2.11.7',
+  source  => 'http://downloads.typesafe.com/scala',
 }
 ```
 
